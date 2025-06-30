@@ -1,0 +1,168 @@
+{
+    "organizations": {
+        "TestOrg": {
+            "name": "TestOrg",
+            "metadata": {
+                "created_at": "2024-11-20 20:15:38.856559",
+                "admin_username": "admin",
+                "admin_email": "admin@test.org",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWkKaq5rQVy15xKZnaGIq+44+D48w\nmrT8xMIG5nGXJzxYKqAbDsEUyZ6+kaK8YBIcnD+cgOr1PD5Yh37To99jvA==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {
+                "passaro.txt": {
+                    "creator": "admin"
+                }
+            },
+            "users": [
+                "admin",
+                "new_user"
+            ]
+        }
+    },
+    "subjects": {
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWkKaq5rQVy15xKZnaGIq+44+D48w\nmrT8xMIG5nGXJzxYKqAbDsEUyZ6+kaK8YBIcnD+cgOr1PD5Yh37To99jvA==\n-----END PUBLIC KEY-----\n": {
+            "username": "admin",
+            "name": "Admin User",
+            "email": "admin@test.org",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEWkKaq5rQVy15xKZnaGIq+44+D48w\nmrT8xMIG5nGXJzxYKqAbDsEUyZ6+kaK8YBIcnD+cgOr1PD5Yh37To99jvA==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "TestOrg"
+            ],
+            "status": "active"
+        },
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECwwVkfzSkUyqRVYH/0JlZNtCQnI+\nGWGBavdFlvIIb/JELkLslgDum1BSCjaJUhc8+8gQSksSG+rjmBu5FAZPzA==\n-----END PUBLIC KEY-----\n": {
+            "username": "new_user",
+            "name": "New User",
+            "email": "new_user@test.org",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAECwwVkfzSkUyqRVYH/0JlZNtCQnI+\nGWGBavdFlvIIb/JELkLslgDum1BSCjaJUhc8+8gQSksSG+rjmBu5FAZPzA==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "TestOrg"
+            ],
+            "status": "active"
+        }
+    },
+    "sessions": {
+        "95f41824-5776-4487-9029-ce01f23b5b0c": {
+            "session_id": "95f41824-5776-4487-9029-ce01f23b5b0c",
+            "session_key": "y8zVbpJrFfXo3GV54eHbjk+sojKWMrK4KJJ468nCCjI=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "e5f548a7-ecfa-446b-9088-06bc3a774914": {
+            "session_id": "e5f548a7-ecfa-446b-9088-06bc3a774914",
+            "session_key": "fJSd8zs3qe/pTXaGMsxoIZ6Z/zS7gpD9TtInyqjlBRk=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "016f5213-9fc9-4513-b23d-79d83e3d9103": {
+            "session_id": "016f5213-9fc9-4513-b23d-79d83e3d9103",
+            "session_key": "hc+/+IK8l8J310JV7esXUIznoS77tpYBskIseV4WLpg=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "a9139a36-39ae-4033-b7ab-863e4a4de9a1": {
+            "session_id": "a9139a36-39ae-4033-b7ab-863e4a4de9a1",
+            "session_key": "7NVgArXvJroFmGciWSRmAWm+2BEiHvb3xA1U4iy7/H0=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "802287d0-d2a8-484f-aa30-ec125aa63404": {
+            "session_id": "802287d0-d2a8-484f-aa30-ec125aa63404",
+            "session_key": "yccqAsLFhURjlMOqeVm651XxS28NecBp8u5d1BbSXUs=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "01cf523d-4927-41d0-8d25-5260f4969d08": {
+            "session_id": "01cf523d-4927-41d0-8d25-5260f4969d08",
+            "session_key": "BVPVZ+C3JdkqloMFclDNKWnFFHS1QNDnzehzXWHcCUg=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "27417c09-cbd1-4828-b337-89937320e13f": {
+            "session_id": "27417c09-cbd1-4828-b337-89937320e13f",
+            "session_key": "xoPUwZrHVhjN3TQVIR4vlsWGaMXPsVvnsRdtvuooVIo=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "a9ae3f2d-d1bb-45db-9958-b4a90215d52c": {
+            "session_id": "a9ae3f2d-d1bb-45db-9958-b4a90215d52c",
+            "session_key": "M/O46l0x7jlIRI6eV7sCQn2H+nYoCiq8nywFxPx5vwM=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "761a8708-f476-43d9-be68-472495a22ece": {
+            "session_id": "761a8708-f476-43d9-be68-472495a22ece",
+            "session_key": "HcHzUEGVWrdaeXuhdQwCSaySEwlHH+toZs1OOjfLJC4=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "e8f775cc-857c-454e-a763-a02557b180e4": {
+            "session_id": "e8f775cc-857c-454e-a763-a02557b180e4",
+            "session_key": "GIHiqlZ7AgV7ugObPkDABnZNaM1ey6M47IsSKTh8nCc=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "3f29fb81-51f0-4ea9-8386-36d5fd165d44": {
+            "session_id": "3f29fb81-51f0-4ea9-8386-36d5fd165d44",
+            "session_key": "8Px4TNmg9KZu4sIPyLF9Ge4+yuyJNUMp+wn3TRjv1V4=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "05078697-aeee-4467-b33e-cfbb8a8467cd": {
+            "session_id": "05078697-aeee-4467-b33e-cfbb8a8467cd",
+            "session_key": "NVC4l6UM0P2kd2+D4g7Ibn4fSPVlpX0Hy4uVUsGw6Ik=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "cb953e25-d495-4b2e-893b-98df691094eb": {
+            "session_id": "cb953e25-d495-4b2e-893b-98df691094eb",
+            "session_key": "14XgRFQfdv6L2BzEbLavnNSGF+I5ChhyYdnQWfG5tKs=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "37aed171-0a59-4eeb-a9df-349517ca2cd8": {
+            "session_id": "37aed171-0a59-4eeb-a9df-349517ca2cd8",
+            "session_key": "z1bwBJtd6wVI47tZhV4BvmdgkMbOA/4UKR/uDLCdAaQ=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        },
+        "390de5f2-4075-4e5b-a50f-8a6097ba8ad6": {
+            "session_id": "390de5f2-4075-4e5b-a50f-8a6097ba8ad6",
+            "session_key": "iBbc1vwAvToueJaTlMTHSOElqLoNEg5lzjKSEV2nsH0=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": null
+        }
+    }
+}

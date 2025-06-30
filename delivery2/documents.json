@@ -1,0 +1,63 @@
+{
+    "TestOrg": {
+        "passaro.txt": {
+            "public_metadata": {
+                "document_handle": "1fdef9ad1eb6a455817556f16bbe934d60b7f0a145b99dab4e6c8e5a81e7dc84",
+                "name": "passaro.txt",
+                "create_date": "2024-12-21 00:59:28.239010",
+                "creator": "admin",
+                "file_handle": null,
+                "acl": {
+                    "DOC_READ": [
+                        "admin"
+                    ],
+                    "DOC_DELETE": [
+                        "admin"
+                    ],
+                    "DOC_ACL": [
+                        "admin"
+                    ]
+                },
+                "deleter": "admin"
+            },
+            "restricted_metadata": {
+                "algorithm": "AES-GCM",
+                "tag": "m/NMYndJsWqipxttD5WIug=="
+            },
+            "encrypted_content": "uHmNReNMhI8Oh7sqopqd3J69i1UeKbct8FaCkbvENl5vw1hLJJd5SfM=",
+            "iv": "E0YOwYsj2LHPOWTB",
+            "doc_nonce": "1tXTT3V4bzn7us/2nZgGrw=="
+        }
+    },
+    "barcelona_org": {
+        "passaro.txt": {
+            "public_metadata": {
+                "document_handle": "322d003d28bafad1b933a1b50804f041c82457ae346191559d8d8c97582984ca",
+                "name": "passaro.txt",
+                "create_date": "2024-12-21 21:26:43.276285",
+                "creator": "joao_user",
+                "file_handle": "CdRj6jxIYZYAZKtrxniVDVaARtiKlGA3nBG3t+j3kbw=",
+                "acl": {
+                    "DOC_READ": [
+                        "joao_user",
+                        "Employee"
+                    ],
+                    "DOC_DELETE": [
+                        "joao_user"
+                    ],
+                    "DOC_ACL": [
+                        "joao_user"
+                    ]
+                },
+                "deleter": null
+            },
+            "restricted_metadata": {
+                "algorithm": "AES-GCM",
+                "tag": "B1PO3JokksLa1eq2QwmXgA=="
+            },
+            "encrypted_content": "I8QMZtjvGlaiuLt46kmIUeSp914ILabR9KLOmY1lZugOSLmIa7o8npD1opEeXiKWomTV1hUU6pYDDZShracn7B9j1ISCEqNmw+BKuktTWMN1rP/I3ZcGpnhI8v98h+NUJNp4kR5y0GDgpWIzinyz5wJOLvBSf4//DdtmTKUSbAqd8xfiRSOXLK5ErfKp4ggYz5uXkF/CTNtNSXCaq6pvd0r2Ff4jf9JqRatSMqZd+7xKwMy8PicSNly5BeFAmfRKRckTjKJh807EjnggwLkI3D3KYmnPLa6zeCYRwqHH9mPUt+zie56pGlaWv0nWTAdUxPILq2RTVFt9XHj4vlY9TJDHWkT8ufyXaxBxLrLALuS8bFV8uGVUF5neaonm/74cKz4Srk77RjpL9RYSCfL49KK6YAX7KkPKHNvIGQJt4Jrd2fej6KLVuuMyqI5llyB4I6B8MGMkxqJpoDuZBtR5eMH1qphSnbBCHGvsk6G+OtkxjDCnDU4tvOU7lMVQTPOn0+5LaJ7YFE22xvjUdj1AnCQzu4Sk1g4zqoUwnvnWEVCuU8Zboe5HzLrJai4O4sA66d2atl/haeLlpREOKcz+iUdjXL+6J3tZxbG3xokKyr6JMx7WvkcXbROJxtPSXNXk5NqiCl1MYYWNEQ3KKY1/sbocuD+R2SS1t4jiZvWsPbc190VmHNYutAqaBjNA6q1dPKIWCfgiJl6vFqlQzbEU+mwzYsO5oTEmjdNqL2WhX5XyGmnyKhK41WimOwDQvreZLIkSsg/cfFNbK11V1g3Wj0nojDypqPogTAsQeBQts5MIzUt+KDCbzJgqWk8GuyRJaOAfIpQu03KdMXUuG7xLSMtjv/rE3ykLuvZSJcUgB3iaT5RgvsQLkxkITjoFP/etKi4NQf2YhPuMmOfvWYf+DCyoGLa4cfMAp3O0o5HlBmLAvq37/tPpmtdcoljw4eDI2hDHFIUtDbwxqD1xk9LDwj51qPy00fhz33OPPBqes65kfMal0yVfpUFKw75nrsUdH2rnm0EttPCIEVcadd9bmXHbvLq6a1CPPSt7+eI37+Czkazu0L9jWe3T9WbDAy5sONDdudCh79DEwIU/QJUvLz+Pv53yZbJe7xJLF4A0YkjfDotQUmvvqHAxoZ3HMDyACYqIuL5VDfHVfvQmor/gyVuW4A9OHbkUwRCGAOIt8lHv17RH0HGol7LqCjNdG8tnfy+uEIi+KHkxKbi/MMUwLqI2vALJPCDfMcp/RFLkPMW+o3yIpMBr7atOR84kZjvEtdWt7o747TUrTX/kTrti31hEl5QI+13y8k+8+gvSyuatRgAtPRHwXPVMT6c0ZiPYfRLl8w/Wg2vWLQIYSTS57vqpmJmM0k9rUvuNIGr1FnPSHtQn6TDbIjXjdqtTdYO+",
+            "iv": "Eupv1Mkv4WEwaAb5",
+            "doc_nonce": "/cgy6iZuASsqNFd1VIp/vA=="
+        }
+    }
+}

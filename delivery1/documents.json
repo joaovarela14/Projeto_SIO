@@ -1,0 +1,33 @@
+{
+    "TestOrg": {
+        "passaro.txt": {
+            "public_metadata": {
+                "document_handle": "ea98f45ec255a64aefe83dcc7b11dd3c8ed3f4d3a6ca1f77352bd6ab898db5ba",
+                "name": "passaro.txt",
+                "create_date": "2024-11-20 23:54:38.554350",
+                "creator": "admin",
+                "file_handle": null,
+                "acl": {
+                    "DOC_READ": [
+                        "admin"
+                    ],
+                    "DOC_DELETE": [
+                        "admin"
+                    ],
+                    "DOC_ACL": [
+                        "admin"
+                    ]
+                },
+                "deleter": "admin"
+            },
+            "restricted_metadata": {
+                "algorithm": "AES-GCM",
+                "encrypted_file_key": "ozV6Mw5G4of0pW9QEkkcPPHLZp88irERmEx0k1zSjtQ=",
+                "encrypted_file_key_iv": "+ifmmooDztrLQ35rLifKpA==",
+                "tag": "rbYMw1DW/5ThnkKTfJRgBA=="
+            },
+            "encrypted_content": "AJci1jFbwGkPzYA=",
+            "iv": "6S/UsjXUTX+rC4ou"
+        }
+    }
+}

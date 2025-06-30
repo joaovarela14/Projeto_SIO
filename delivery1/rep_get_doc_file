@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# rep_get_doc_file <session_file> <document_name> <output_file=none>
+
+python3 ./client.py rep_get_doc_file $1 $2 $3

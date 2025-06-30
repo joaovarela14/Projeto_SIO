@@ -1,0 +1,11 @@
+### Alterações efetuadas no projeto:
+
+- **Chamadas à API encriptadas**: Conforme descrito na página 5 do relatório, todas as chamadas à API são agora protegidas por encriptação, garantindo maior segurança na transmissão de dados.
+
+- **Possibilidade de múltiplas assumed roles num utilizador**: Foi adicionada a funcionalidade que permite que um utilizador tenha mais do que uma assumed role associada.
+
+- **Documentos armazenados em ficheiros individuais**: Para mitigar os riscos de perda de documentos, cada documento é agora guardado num ficheiro separado. 
+
+- **Session key associada a cada documento**: Cada documento tem agora associada a session key utilizada para a sua encriptação, permitindo a sua desencriptação mesmo que a sessão correspondente tenha expirado.
+
+- **Sessões com tempo de expiração**: Foi implementado um mecanismo de expiração para as sessões, conforme descrito na página 6 do relatório na secção "rep_create_session". Esta funcionalidade aumenta a segurança ao limitar a duração de sessões inativas.

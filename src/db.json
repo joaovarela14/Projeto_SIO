@@ -1,0 +1,584 @@
+{
+    "organizations": {
+        "DETI": {
+            "name": "DETI",
+            "metadata": {
+                "created_at": "2025-01-21 00:27:22.033773",
+                "admin_username": "ric",
+                "admin_email": "ric@ua.pt",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {
+                "passaro": {
+                    "owner": "ric"
+                }
+            },
+            "users": [
+                "ric",
+                "varela"
+            ],
+            "roles": {
+                "Managers": {
+                    "permissions": [
+                        "ROLE_ACL",
+                        "SUBJECT_NEW",
+                        "SUBJECT_DOWN",
+                        "SUBJECT_UP",
+                        "DOC_NEW",
+                        "ROLE_NEW",
+                        "ROLE_DOWN",
+                        "ROLE_UP",
+                        "ROLE_MOD",
+                        "DOC_READ",
+                        "DOC_DELETE",
+                        "DOC_ACL"
+                    ],
+                    "subjects": [
+                        "ric"
+                    ],
+                    "status": "active"
+                },
+                "empreiteiro": {
+                    "permissions": [],
+                    "subjects": [],
+                    "status": "active"
+                },
+                "puta": {
+                    "permissions": [],
+                    "subjects": [],
+                    "status": "active"
+                },
+                "trolha": {
+                    "permissions": [],
+                    "subjects": [],
+                    "status": "active"
+                },
+                "stor": {
+                    "permissions": [],
+                    "subjects": [],
+                    "status": "active"
+                },
+                "carpinteiro": {
+                    "permissions": [],
+                    "subjects": [
+                        "ric"
+                    ],
+                    "status": "active"
+                }
+            }
+        },
+        "Lixa": {
+            "name": "Lixa",
+            "metadata": {
+                "created_at": "2025-01-22 15:19:56.952287",
+                "admin_username": "ric",
+                "admin_email": "ric@ua.pt",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {},
+            "users": [
+                "ric"
+            ],
+            "roles": {
+                "Managers": {
+                    "permissions": [
+                        "ROLE_ACL",
+                        "SUBJECT_NEW",
+                        "SUBJECT_DOWN",
+                        "SUBJECT_UP",
+                        "DOC_NEW",
+                        "ROLE_NEW",
+                        "ROLE_DOWN",
+                        "ROLE_UP",
+                        "ROLE_MOD",
+                        "DOC_READ",
+                        "DOC_DELETE",
+                        "DOC_ACL"
+                    ],
+                    "subjects": [
+                        "ric"
+                    ],
+                    "status": "active"
+                }
+            }
+        },
+        "UA": {
+            "name": "UA",
+            "metadata": {
+                "created_at": "2025-01-22 15:24:21.772056",
+                "admin_username": "ric",
+                "admin_email": "ric@ua.pt",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {},
+            "users": [
+                "ric"
+            ],
+            "roles": {
+                "Managers": {
+                    "permissions": [
+                        "ROLE_ACL",
+                        "SUBJECT_NEW",
+                        "SUBJECT_DOWN",
+                        "SUBJECT_UP",
+                        "DOC_NEW",
+                        "ROLE_NEW",
+                        "ROLE_DOWN",
+                        "ROLE_UP",
+                        "ROLE_MOD",
+                        "DOC_READ",
+                        "DOC_DELETE",
+                        "DOC_ACL"
+                    ],
+                    "subjects": [
+                        "ric"
+                    ],
+                    "status": "active"
+                }
+            }
+        },
+        "DBIO": {
+            "name": "DBIO",
+            "metadata": {
+                "created_at": "2025-01-22 15:26:52.816283",
+                "admin_username": "ric",
+                "admin_email": "ric@ua.pt",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {},
+            "users": [
+                "ric"
+            ],
+            "roles": {
+                "Managers": {
+                    "permissions": [
+                        "ROLE_ACL",
+                        "SUBJECT_NEW",
+                        "SUBJECT_DOWN",
+                        "SUBJECT_UP",
+                        "DOC_NEW",
+                        "ROLE_NEW",
+                        "ROLE_DOWN",
+                        "ROLE_UP",
+                        "ROLE_MOD",
+                        "DOC_READ",
+                        "DOC_DELETE",
+                        "DOC_ACL"
+                    ],
+                    "subjects": [
+                        "ric"
+                    ],
+                    "status": "active"
+                }
+            }
+        },
+        "DMAT": {
+            "name": "DMAT",
+            "metadata": {
+                "created_at": "2025-01-22 15:28:52.588423",
+                "admin_username": "ric",
+                "admin_email": "ric@ua.pt",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {},
+            "users": [
+                "ric"
+            ],
+            "roles": {
+                "Managers": {
+                    "permissions": [
+                        "ROLE_ACL",
+                        "SUBJECT_NEW",
+                        "SUBJECT_DOWN",
+                        "SUBJECT_UP",
+                        "DOC_NEW",
+                        "ROLE_NEW",
+                        "ROLE_DOWN",
+                        "ROLE_UP",
+                        "ROLE_MOD",
+                        "DOC_READ",
+                        "DOC_DELETE",
+                        "DOC_ACL"
+                    ],
+                    "subjects": [
+                        "ric"
+                    ],
+                    "status": "active"
+                }
+            }
+        },
+        "TestOrg": {
+            "name": "TestOrg",
+            "metadata": {
+                "created_at": "2025-01-26 17:04:18.502157",
+                "admin_username": "admin",
+                "admin_email": "admin@test.org",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE53FeenKW7ifdGOfYuDTiDHgrwktS\n+p/34/nYaIhcVO2K1tczPfKfRYDewm9+QN6suoijzyMeZUDU65eRJpIx4g==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {
+                "passaro.txt": {
+                    "owner": "admin"
+                }
+            },
+            "users": [
+                "admin",
+                "new_user"
+            ],
+            "roles": {
+                "Managers": {
+                    "permissions": [
+                        "ROLE_ACL",
+                        "SUBJECT_NEW",
+                        "SUBJECT_DOWN",
+                        "SUBJECT_UP",
+                        "DOC_NEW",
+                        "ROLE_NEW",
+                        "ROLE_DOWN",
+                        "ROLE_UP",
+                        "ROLE_MOD",
+                        "DOC_READ",
+                        "DOC_DELETE",
+                        "DOC_ACL"
+                    ],
+                    "subjects": [
+                        "admin"
+                    ],
+                    "status": "active"
+                },
+                "TestRole": {
+                    "permissions": [],
+                    "subjects": [
+                        "admin"
+                    ],
+                    "status": "active"
+                }
+            }
+        }
+    },
+    "subjects": {
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n": {
+            "username": "ric",
+            "name": "ric",
+            "email": "ric@ua.pt",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "DETI",
+                "Lixa",
+                "UA",
+                "DBIO",
+                "DMAT"
+            ],
+            "status": "active"
+        },
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n_varela": {
+            "username": "varela",
+            "name": "joao",
+            "email": "varela@ua.pt",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "DETI"
+            ],
+            "status": "active"
+        },
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE53FeenKW7ifdGOfYuDTiDHgrwktS\n+p/34/nYaIhcVO2K1tczPfKfRYDewm9+QN6suoijzyMeZUDU65eRJpIx4g==\n-----END PUBLIC KEY-----\n": {
+            "username": "admin",
+            "name": "Admin User",
+            "email": "admin@test.org",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE53FeenKW7ifdGOfYuDTiDHgrwktS\n+p/34/nYaIhcVO2K1tczPfKfRYDewm9+QN6suoijzyMeZUDU65eRJpIx4g==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "TestOrg"
+            ],
+            "status": "active"
+        },
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE53FeenKW7ifdGOfYuDTiDHgrwktS\n+p/34/nYaIhcVO2K1tczPfKfRYDewm9+QN6suoijzyMeZUDU65eRJpIx4g==\n-----END PUBLIC KEY-----\n_new_user": {
+            "username": "new_user",
+            "name": "New User",
+            "email": "new_user@test.org",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE53FeenKW7ifdGOfYuDTiDHgrwktS\n+p/34/nYaIhcVO2K1tczPfKfRYDewm9+QN6suoijzyMeZUDU65eRJpIx4g==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "TestOrg"
+            ],
+            "status": "active"
+        }
+    },
+    "sessions": {
+        "98a5ceb6-d4d6-4f19-9bda-40f2246339f9": {
+            "session_id": "98a5ceb6-d4d6-4f19-9bda-40f2246339f9",
+            "session_key": "qunMTxSfMZJNwfBKZtY7mq+JeKD9AgdhEjNIZKYWaMI=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 10,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        },
+        "a2c39ee0-8144-4e2f-8baf-6e52365ce9bd": {
+            "session_id": "a2c39ee0-8144-4e2f-8baf-6e52365ce9bd",
+            "session_key": "mQUE5xK8gX/od6SkNSrR/pL1qCenl88GgniMD6AC9zo=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 5,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        },
+        "7def716e-bcb4-4373-8f0b-17b886a8fb32": {
+            "session_id": "7def716e-bcb4-4373-8f0b-17b886a8fb32",
+            "session_key": "3xcOKfvWPrZjT6zggP4vw3kHEBF1xpMVZm0pIWs+b54=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 2,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        },
+        "c88e2dd5-1ba2-4ea7-8ae7-b8a7ede8e2d7": {
+            "session_id": "c88e2dd5-1ba2-4ea7-8ae7-b8a7ede8e2d7",
+            "session_key": "F9/PPmdEt5fSyuRuU8B5a8K1INjHYNw1tKdw1e8DUiY=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 4,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        },
+        "5568d850-81bc-464a-9fa7-d4007bb9be3c": {
+            "session_id": "5568d850-81bc-464a-9fa7-d4007bb9be3c",
+            "session_key": "WGmbZLJgaiCxb8slK7Ag05LK+1dq5A7GLeQKJ18KWPE=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 6,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        },
+        "ca076a02-2242-457f-b984-773c168b90b6": {
+            "session_id": "ca076a02-2242-457f-b984-773c168b90b6",
+            "session_key": "kXbcc9HMnqCZn8CwcD7KiEjKoykfjr6+Gvj2sEUrIvM=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 23,
+            "active_roles": [
+                "Managers",
+                "empreiteiro"
+            ],
+            "assumed_roles": [
+                "Managers",
+                "empreiteiro"
+            ]
+        },
+        "b574dd32-8af5-4ea8-a937-aca37bde0351": {
+            "session_id": "b574dd32-8af5-4ea8-a937-aca37bde0351",
+            "session_key": "Hp6QV3QgJICZceuB69sB0tCDv9ckNLRYn9PJeoNiym0=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 13,
+            "active_roles": [
+                "Managers",
+                "empreiteiro"
+            ],
+            "assumed_roles": [
+                "Managers",
+                "empreiteiro"
+            ]
+        },
+        "0e840880-b0c6-4fad-b510-aafaa74832db": {
+            "session_id": "0e840880-b0c6-4fad-b510-aafaa74832db",
+            "session_key": "ffVc1JXiyKm0EgTWJ+vpH0uM1oXDO/CjIFzJ24ReMhw=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 1,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        },
+        "27e078d0-2bff-4ca8-873c-7bc117afbf5b": {
+            "session_id": "27e078d0-2bff-4ca8-873c-7bc117afbf5b",
+            "session_key": "UwiHsZfQ15qXE0ZGNmhNLO88Ze1OESvehTqmuJldzPI=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 2
+        },
+        "a9a20e60-4844-4746-9400-f6d4045d562e": {
+            "session_id": "a9a20e60-4844-4746-9400-f6d4045d562e",
+            "session_key": "/g+0ZPw+vBOX74TCgocljDjMv4s/3AmqHvS/HXuOiwY=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 29,
+            "active_roles": [
+                "Managers",
+                "carpinteiro"
+            ],
+            "assumed_roles": [
+                "Managers",
+                "carpinteiro"
+            ]
+        },
+        "fb0e46f8-2980-4431-9c94-0084e93a13f2": {
+            "session_id": "fb0e46f8-2980-4431-9c94-0084e93a13f2",
+            "session_key": "jUSfZcK4Q/NLOrYmGQnTFZp3XoAyUZrojQYWxeodynA=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 0
+        },
+        "275b6a9d-8614-42ad-aca4-8c9a4bf0e502": {
+            "session_id": "275b6a9d-8614-42ad-aca4-8c9a4bf0e502",
+            "session_key": "RvUj880ErjlVEXsFwzJSCFBRWai5pdY1H40ITE1ZV6U=",
+            "organization": "DETI",
+            "username": "ric",
+            "expiration": null,
+            "last_counter": 1,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        },
+        "9f6b3bbf-bdbd-492c-a0a0-2a9fa2580886": {
+            "session_id": "9f6b3bbf-bdbd-492c-a0a0-2a9fa2580886",
+            "session_key": "r6BDERkcfdHyF4EYiGEboS3iP4fBkrTaNGR5bkV3bxA=",
+            "organization": "TestOrg",
+            "username": "admin",
+            "expiration": 1737914645.791052,
+            "last_counter": 26,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_roles": [
+                "Managers"
+            ]
+        }
+    }
+}

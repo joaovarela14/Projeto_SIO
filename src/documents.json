@@ -1,0 +1,63 @@
+{
+    "DETI": {
+        "passaro": {
+            "public_metadata": {
+                "document_handle": "18ccf7efb57d1a5a5eca77cdee5a3f4f26392de396dc0c090cf2c790efc47a3e",
+                "name": "passaro",
+                "create_date": "2025-01-21 01:16:28.755948",
+                "creator": "ric",
+                "file_handle": null,
+                "acl": {
+                    "DOC_READ": [
+                        "ric",
+                        "carpinteiro"
+                    ],
+                    "DOC_DELETE": [
+                        "ric"
+                    ],
+                    "DOC_ACL": [
+                        "ric"
+                    ]
+                },
+                "deleter": "ric"
+            },
+            "restricted_metadata": {
+                "algorithm": "AES-GCM",
+                "tag": "i8anBlACps6PMCu+kGGTlQ=="
+            },
+            "encrypted_content": "eBhB01N/Ujms2S3MYXAN9qgsUOd/UpF9skmiD3blgPwKmncM+4noAHU=",
+            "iv": "OZnuTw9OamM8SAx8",
+            "doc_nonce": "5gObHonmTS4ayR6+PHAfcw=="
+        }
+    },
+    "TestOrg": {
+        "passaro.txt": {
+            "public_metadata": {
+                "document_handle": "31ccecbfe3acb9bbfd98f701ae036a5f131c852fc69dabcd00006a057d529af0",
+                "name": "passaro.txt",
+                "create_date": "2025-01-26 17:19:45.287767",
+                "creator": "admin",
+                "file_handle": null,
+                "acl": {
+                    "DOC_READ": [
+                        "admin"
+                    ],
+                    "DOC_DELETE": [
+                        "admin"
+                    ],
+                    "DOC_ACL": [
+                        "admin"
+                    ]
+                },
+                "deleter": "admin"
+            },
+            "restricted_metadata": {
+                "algorithm": "AES-GCM",
+                "tag": "u+jjbTHj0hpfByJMAlELIQ=="
+            },
+            "encrypted_content": "nlV6Xb7aWCyfhmFRZMaZWjobZSyXmgXqy02O8eM42VpgUtScvSKOy6Y=",
+            "iv": "N59x71G7fBB5G5ud",
+            "doc_nonce": "C7PGA+S0C+uypjdtlUfk7Q=="
+        }
+    }
+}

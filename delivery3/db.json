@@ -1,0 +1,113 @@
+{
+    "organizations": {
+        "DETI": {
+            "name": "DETI",
+            "metadata": {
+                "created_at": "2025-01-08 11:32:01.795250",
+                "admin_username": "henrique",
+                "admin_email": "hft@ua.pt",
+                "admin_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n"
+            },
+            "acl": {
+                "ROLE_ACL": [
+                    "Manager"
+                ],
+                "SUBJECT_NEW": [
+                    "Manager"
+                ],
+                "SUBJECT_DOWN": [
+                    "Manager"
+                ],
+                "SUBJECT_UP": [
+                    "Manager"
+                ],
+                "DOC_NEW": [
+                    "Manager"
+                ]
+            },
+            "documents": {
+                "passaro": {
+                    "owner": "varela"
+                },
+                "Relatorio": {
+                    "owner": "varela"
+                }
+            },
+            "users": [
+                "henrique",
+                "varela"
+            ],
+            "roles": {
+                "Managers": {
+                    "permissions": [
+                        "ROLE_ACL",
+                        "SUBJECT_NEW",
+                        "SUBJECT_DOWN",
+                        "SUBJECT_UP",
+                        "DOC_NEW",
+                        "ROLE_NEW",
+                        "ROLE_DOWN",
+                        "ROLE_UP",
+                        "ROLE_MOD",
+                        "DOC_READ",
+                        "DOC_DELETE",
+                        "DOC_ACL"
+                    ],
+                    "subjects": [
+                        "henrique",
+                        "varela"
+                    ],
+                    "status": "active"
+                }
+            }
+        }
+    },
+    "subjects": {
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n": {
+            "username": "henrique",
+            "name": "henrique",
+            "email": "hft@ua.pt",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAESM6P2HbqRs0II304gsxY93G7eyfs\nWm6zsMrdrcaJCJjKf0NX5E4MFqcq5lr5bvj/JGtfV2qRtgdrbkoevBWFkg==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "DETI"
+            ],
+            "status": "active"
+        },
+        "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8oHAvLpbvgylZRIMZe9wUxa7HBrn\nFz/7RWF0gTTD+/GKm3ktq8cIEY9T2CbO4buOKT2LBVg/DY8efQ0uHkFcVg==\n-----END PUBLIC KEY-----\n": {
+            "username": "varela",
+            "name": "varela",
+            "email": "v@ua.pt",
+            "public_key": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8oHAvLpbvgylZRIMZe9wUxa7HBrn\nFz/7RWF0gTTD+/GKm3ktq8cIEY9T2CbO4buOKT2LBVg/DY8efQ0uHkFcVg==\n-----END PUBLIC KEY-----\n",
+            "organizations": [
+                "DETI"
+            ],
+            "status": "active"
+        }
+    },
+    "sessions": {
+        "6aa0cce2-5076-4089-ba6e-5866a4d56bb0": {
+            "session_id": "6aa0cce2-5076-4089-ba6e-5866a4d56bb0",
+            "session_key": "wp97iqM+zDTycVFifRgtReASZQjGCo46fLpypVDXjY0=",
+            "organization": "DETI",
+            "username": "henrique",
+            "expiration": null,
+            "last_counter": 5,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_role": "Managers"
+        },
+        "0f10a921-633a-40d4-879d-6e5fc572cc69": {
+            "session_id": "0f10a921-633a-40d4-879d-6e5fc572cc69",
+            "session_key": "Es0oIv+U303FRAKrLr7vsTO8Fl3UqJyCOZszVzwJTyY=",
+            "organization": "DETI",
+            "username": "varela",
+            "expiration": null,
+            "last_counter": 8,
+            "active_roles": [
+                "Managers"
+            ],
+            "assumed_role": "Managers"
+        }
+    }
+}

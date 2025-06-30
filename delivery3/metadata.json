@@ -1,0 +1,22 @@
+{
+    "acl": {
+        "DOC_ACL": [
+            "admin"
+        ],
+        "DOC_DELETE": [
+            "admin"
+        ],
+        "DOC_READ": [
+            "admin"
+        ]
+    },
+    "algorithm": "AES-GCM",
+    "create_date": "2025-01-08 01:05:23.958562",
+    "creator": "admin",
+    "doc_nonce": "FprvU4jbxSvWCDWe5xLQiQ==",
+    "encrypted_content": "YjeigHqvKYO8KkLsng6KgRDyGMjL+wy3BNjN9iaJ02X/9i65PuiGYEo=",
+    "file_handle": "guQqaqvdjjFaZ/WzCARs6WNHwXxpdIXcEL5R1d770zc=",
+    "iv": "eMGzZ7OTJdRJRGXP",
+    "session_key": "JfBhwLokoyqxZBXunm64Nzf6/9418sddU0lsh7XsriI=",
+    "tag": "4g+fxCZgVKx3QBOq0vGAkA=="
+}

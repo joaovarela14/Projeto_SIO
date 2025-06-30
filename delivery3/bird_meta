@@ -1,0 +1,22 @@
+{
+    "acl": {
+        "DOC_ACL": [
+            "ric"
+        ],
+        "DOC_DELETE": [
+            "ric"
+        ],
+        "DOC_READ": [
+            "ric"
+        ]
+    },
+    "algorithm": "AES-GCM",
+    "create_date": "2024-12-29 19:43:00.370798",
+    "creator": "ric",
+    "doc_nonce": "26xiqpWVXrIbs6pBmok11A==",
+    "encrypted_content": "lTGiDgmQMPGY4AqVKUJpDc5a/OjjlEL4q4a6cUE0UNLrWhZ0ZGLi+aw=",
+    "file_handle": "guQqaqvdjjFaZ/WzCARs6WNHwXxpdIXcEL5R1d770zc=",
+    "iv": "FNDytVVRWqY5dN7J",
+    "session_key": "rxTlUaCozGnMQoiqoYVYEMlORGi0eWumlRH4f3E14eY=",
+    "tag": "HXYAgeuVrjPlp657/sufXw=="
+}
